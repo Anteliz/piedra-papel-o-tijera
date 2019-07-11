@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=300px" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piedra, Papel o Tijeras</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/funciones.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div id="imagen">
+		<img src="fondo.png" style="position: relative">
+		<div id="contenedor" style="position: absolute; z-index: 1">
+
+			<div id="head">
+				<div id="titulo"><h3><b>Let's play rock, <br> paper, scissors!</b></h3></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<small><small><div id="score"><p style="color:darkorchid;">SCORE</p>
+					<div id="y">Tú:&nbsp</div><div id="tu">0</div><br/>
+					<div id="c">PC:&nbsp</div><div id="pc">0</div>
+				</div></small></small>
+			</div>
+			<br><br><br>
+
+			<div id="mid">
+				<h6>Elige tu jugada</h6>
+				<div id="piedra">
+					<input type="button" class="btn btn-danger" value="Piedra"/>
+				</div>
+				<div id="papel">
+					<input type="button" class="btn btn-info" value="Papel"/>
+				</div>
+				<div id="tijera">
+					<input type="button" class="btn btn-success" value="Tijeras"/>
+				</div>
+			</div>
+
+			<div id="foot">
+				<div id="juego">
+					<div class="mostrador">
+						<div id="usuario"><h3>Elegiste:</h3></div>
+						<div id="u_ele"></div>
+						<br><br>
+						<div id="maquina"><h3>La PC eligió:</h3></div>
+						<div id="m_ele"></div>
+						<div id="resultado">
+							<span id="res"></span>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

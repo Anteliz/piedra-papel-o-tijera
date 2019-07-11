@@ -1,0 +1,127 @@
+body{
+	color: #FFF;
+	background-color: #000;
+	font-family: sans-serif;
+	padding-left: 400px;
+	padding-top: 50px;
+}
+
+img {
+	width: 80%;
+	height: auto;
+	position: center;
+	margin-top: 30px;
+	margin-left: -570px;
+	left: 50%;
+	top: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+#contenedor{
+	min-width: 240px;
+	max-width: 30%;
+	text-align: center;
+	position: absolute;
+	z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.menu h6{
+	margin-bottom: 2px;
+	color: #FFF;
+}
+
+#piedra, #papel, #tijera{
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%
+	height: auto;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#juego{
+	width: 100%;
+	height: 260%;
+	margin-top: 30px;
+	padding: 15px;
+	display: inline-flex;
+	box-sizing: border-box;
+}
+
+.mostrador{
+	width: 68%;
+	height: auto;
+	text-align:center;
+	display: inline-block;
+	text-align: left;
+}
+
+#resultado{
+	font-size: 18px;
+	border-left: 3px dashed black;
+	color: #FFF;
+	width: 30%;
+	height: auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#u_ele, #m_ele, #res{
+	font-size: 28px;
+	text-align: center;
+	display: inline-block;
+}
+
+#head{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+#titulo{
+	margin-right: 130px;
+	float: left;
+	text-align: left;
+}
+
+#score{
+	float: left;
+	text-align: right;
+	display: inline-block;
+}
+
+#y, #tu{
+	float: left;
+}
+
+#c, #pc{
+	float: left;
+}
+
+#foot{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	display: inline-flex;
+}
+
+#u_ele, #usuario{
+	float: left;
+	text-align: left;
+}
+
+#m_ele, #maquina{
+	float: left;
+	text-align: left;
+}
